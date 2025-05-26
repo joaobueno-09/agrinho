@@ -2,13 +2,13 @@
 
 /* Variáveis */
 :root {
-    --primary-color:rgb(6, 116, 1);
-    --secondary-color: #3ca688;
-    --text-color: #dcf2d5;
-    --background-color: #095441;
-    --button-hover: #01400a;
-    --font-body: "Chocolate Classical Sans", serif;
-    --font-titulo: "Rakkas", serif;
+    --primary-color: #6a1b9a; /* Um roxo vibrante */
+    --secondary-color: #ff7043; /* Laranja suave */
+    --text-color: #f5f5f5; /* Branco suave */
+    --background-color: #1a237e; /* Azul escuro */
+    --button-hover: #8e24aa; /* Roxo mais claro para o hover */
+    --font-body: "Arial", sans-serif;
+    --font-titulo: "Georgia", serif;
 }
 
 /* Reset */
@@ -23,7 +23,7 @@
 body {
     background-color: var(--background-color);
     color: var(--text-color);
-    line-height: 4.6;
+    line-height: 1.6;
 }
 
 /* Header Styles */
@@ -38,13 +38,13 @@ header {
 header h1 {
     font-size: 2em;
     margin-bottom: 10px;
+    color: var(--text-color);
 }
 
 .image-container {
     border-radius: 8px;
     overflow: hidden;
     margin: 10px auto 20px;
-    /* max-width: 600px;  Let's remove this limit for now */
     width: 40%; /* Occupy 80% of the header's width */
     max-height: 400px; /* Added a maximum height */
 }
